@@ -1,6 +1,7 @@
-# Hi there 👋 — خوش اومدی!
+                                                                      # Hi there 👋 — خوش اومدی!
 
-I'm Somaye, a passionate **Front-End Developer** 💻 who loves building beautiful web applications.
+                                                        I'm Somaye, a passionate **Front-End Developer** 💻
+                                                           who loves building beautiful web applications.
 
 ---
 
