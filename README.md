@@ -1,14 +1,13 @@
-                                                                      # Hi there 👋 — خوش اومدی!
+                                                                           Hi there 👋 — خوش اومدی!
 
-                                                        I'm Somaye, a passionate **Front-End Developer** 💻
-                                                           who loves building beautiful web applications.
+                                                          I'm Somaye, a passionate **Front-End Developer** 💻
+                                                            who loves building beautiful web applications.
 
----
 
 ### 🚀 Tech Stack
 
 <p align="center">
-  <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer" aria-label="React" style="margin: 0 12px; display: inline-block;">
+  <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer" aria-label="React"  display: inline-block;">
     <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/react.svg" alt="React" width="40" height="40" style="transition: transform 0.3s ease-in-out;"/>
   </a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer" aria-label="JavaScript" style="margin: 0 12px; display: inline-block;">
