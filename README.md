@@ -1,125 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Somaye's Portfolio</title>
-  <script src="https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.production.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.production.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@babel/standalone@7.22.9/babel.min.js"></script>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
-  <div id="root"></div>
-  <script type="text/babel">
-    function Header() {
-      return (
-        <header className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-16 text-center">
-          <h1 className="text-5xl font-bold mb-4">Somaye Baniasadi</h1>
-          <p className="text-2xl mb-4">Front-End Developer 💻</p>
-          <p className="text-lg">Passionate about building beautiful web applications</p>
-        </header>
-      );
-    }
+# Hi there 👋 — خوش اومدی!
 
-    function TechStack() {
-      const techs = [
-        { name: "React", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/react.svg" },
-        { name: "JavaScript", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/javascript.svg" },
-        { name: "TypeScript", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/typescript.svg" },
-        { name: "Next.js", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/nextdotjs.svg" },
-        { name: "Tailwind CSS", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/tailwindcss.svg" },
-        { name: "Bootstrap", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/bootstrap.svg" },
-        { name: "MongoDB", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/mongodb.svg" },
-        { name: "GitHub", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/github.svg" },
-        { name: "VS Code", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/visualstudiocode.svg" },
-      ];
+I'm Somaye, a passionate **Front-End Developer** 💻 who loves building beautiful web applications.
 
-      return (
-        <section className="py-12 bg-gray-100">
-          <h2 className="text-3xl font-semibold text-center mb-8">🚀 Tech Stack</h2>
-          <div className="flex flex-wrap justify-center gap-6">
-            {techs.map((tech) => (
-              <a
-                key={tech.name}
-                href={`https://${tech.name.toLowerCase().replace(" ", "")}.org`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="transform transition-transform hover:scale-110"
-              >
-                <img src={tech.icon} alt={tech.name} className="w-12 h-12" />
-              </a>
-            ))}
-          </div>
-        </section>
-      );
-    }
+---
 
-    function GitHubStats() {
-      return (
-        <section className="py-12 bg-white">
-          <h2 className="text-3xl font-semibold text-center mb-8">📊 GitHub Stats</h2>
-          <div className="flex flex-col items-center gap-6">
-            <img
-              src="https://github-readme-streak-stats.herokuapp.com/?user=somaye56&theme=radical"
-              alt="GitHub Streak"
-              className="max-w-full"
-            />
-            <img
-              src="https://github-readme-stats.vercel.app/api?username=somaye56&show_icons=true&count_private=true&include_all_commits=true&theme=radical"
-              alt="GitHub Stats"
-              className="max-w-full"
-            />
-          </div>
-        </section>
-      );
-    }
+### 🚀 Tech Stack
 
-    function Contact() {
-      const contacts = [
-        { name: "WhatsApp", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/whatsapp.svg", link: "https://wa.me/989356130954" },
-        { name: "GitHub", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/github.svg", link: "https://github.com/somaye56" },
-        { name: "Telegram", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/telegram.svg", link: "https://t.me/QSomayeh" },
-        { name: "LinkedIn", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/linkedin.svg", link: "https://www.linkedin.com/in/somaye-baniasadi" },
-        { name: "Email", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/gmail.svg", link: "mailto:s0maye.baniasadiii@gmail.com" },
-      ];
+<p align="center">
+  <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer" aria-label="React" style="margin: 0 12px;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/react.svg" alt="React" width="30" height="30" style="transition: transform 0.3s;"/>
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer" aria-label="JavaScript" style="margin: 0 12px;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/javascript.svg" alt="JavaScript" width="30" height="30" style="transition: transform 0.3s;"/>
+  </a>
+  <a href="https://www.typescriptlang.org" target="_blank" rel="noopener noreferrer" aria-label="TypeScript" style="margin: 0 12px;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/typescript.svg" alt="TypeScript" width="30" height="30" style="transition: transform 0.3s;"/>
+  </a>
+  <a href="https://nextjs.org" target="_blank" rel="noopener noreferrer" aria-label="Next.js" style="margin: 0 12px;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/nextdotjs.svg" alt="Next.js" width="30" height="30" style="transition: transform 0.3s;"/>
+  </a>
+  <a href="https://tailwindcss.com" target="_blank" rel="noopener noreferrer" aria-label="Tailwind CSS" style="margin: 0 12px;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/tailwindcss.svg" alt="Tailwind CSS" width="30" height="30" style="transition: transform 0.3s;"/>
+  </a>
+  <a href="https://getbootstrap.com" target="_blank" rel="noopener noreferrer" aria-label="Bootstrap" style="margin: 0 12px;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/bootstrap.svg" alt="Bootstrap" width="30" height="30" style="transition: transform 0.3s;"/>
+  </a>
+  <a href="https://www.mongodb.com" target="_blank" rel="noopener noreferrer" aria-label="MongoDB" style="margin: 0 12px;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/mongodb.svg" alt="MongoDB" width="30" height="30" style="transition: transform 0.3s;"/>
+  </a>
+  <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub" style="margin: 0 12px;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/github.svg" alt="GitHub" width="30" height="30" style="transition: transform 0.3s;"/>
+  </a>
+  <a href="https://code.visualstudio.com" target="_blank" rel="noopener noreferrer" aria-label="Visual Studio Code" style="margin: 0 12px;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/visualstudiocode.svg" alt="Visual Studio Code" width="30" height="30" style="transition: transform 0.3s;"/>
+  </a>
+</p>
 
-      return (
-        <section className="py-12 bg-gray-100">
-          <h2 className="text-3xl font-semibold text-center mb-8">📫 Contact Me</h2>
-          <div className="flex flex-wrap justify-center gap-8">
-            {contacts.map((contact) => (
-              <a
-                key={contact.name}
-                href={contact.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="transform transition-transform hover:scale-110"
-              >
-                <img src={contact.icon} alt={contact.name} className="w-12 h-12" />
-              </a>
-            ))}
-          </div>
-        </section>
-      );
-    }
+---
 
-    function App() {
-      return (
-        <div className="min-h-screen font-sans">
-          <Header />
-          <TechStack />
-          <GitHubStats />
-          <Contact />
-          <footer className="bg-gray-800 text-white text-center py-4">
-            <p>© 2025 Somaye Baniasadi. All rights reserved.</p>
-          </footer>
-        </div>
-      );
-    }
+### 📊 GitHub Stats
 
-    const root = ReactDOM.createRoot(document.getElementById('root'));
-    root.render(<App />);
-  </script>
-</body>
-</html>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=somaye56&theme=radical" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=somaye56&show_icons=true&count_private=true&include_all_commits=true&theme=radical" alt="GitHub Stats" />
+</p>
+
+---
+
+### 📫 Contact Me
+
+<p align="center" style="font-size: 1.6rem;">
+  <a href="https://wa.me/989356130954" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" style="margin: 0 20px;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/whatsapp.svg" alt="WhatsApp" width="36" height="36" style="transition: transform 0.3s;"/>
+  </a>
+  <a href="https://github.com/somaye56" target="_blank" rel="noopener noreferrer" aria-label="GitHub" style="margin: 0 20px;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/github.svg" alt="GitHub" width="36" height="36" style="transition: transform 0.3s;"/>
+  </a>
+  <a href="https://t.me/QSomayeh" target="_blank" rel="noopener noreferrer" aria-label="Telegram" style="margin: 0 20px;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/telegram.svg" alt="Telegram" width="36" height="36" style="transition: transform 0.3s;"/>
+  </a>
+  <a href="https://www.linkedin.com/in/somaye-baniasadi" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" style="margin: 0 20px;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/linkedin.svg" alt="LinkedIn" width="36" height="36" style="transition: transform 0.3s;"/>
+  </a>
+  <a href="mailto:s0maye.baniasadiii@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email" style="margin: 0 20px;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/gmail.svg" alt="Email" width="36" height="36" style="transition: transform 0.3s;"/>
+  </a>
+</p>
