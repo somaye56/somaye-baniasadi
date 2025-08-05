@@ -41,11 +41,11 @@ I'm Somaye, a passionate **Front-End Developer** 💻 who loves building beautif
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=somaye56" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=somaye56&theme=radical" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=somaye56&show_icons=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=somaye56&show_icons=true&count_private=true&include_all_commits=true&theme=radical" alt="GitHub Stats" />
 </p>
 
 ---
