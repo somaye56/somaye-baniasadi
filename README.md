@@ -20,11 +20,16 @@ I'm Somaye, a passionate <strong>Front-End Developer</strong> 💻 who loves bui
 </p>
 
 <h2 align="center" style="color:#444;">📊 My GitHub Statistics</h2>
-<p align="center">
-  <img style="border-radius:14px; margin:10px; box-shadow: 0 3px 8px rgba(0,0,0,0.15);" src="https://github-readme-streak-stats.herokuapp.com/?user=somaye56&border_radius=15" alt="streak" />
-  <br/>
-  <img style="border-radius:14px; margin:10px; box-shadow: 0 3px 8px rgba(0,0,0,0.15);" src="https://github-readme-stats.vercel.app/api?username=somaye56&show_icons=true&count_private=true&include_all_commits=true&title_color=FFD600&text_color=333333&bg_color=ffffff&icon_color=FFD600&border_radius=15" alt="stats"/>
-</p>
+<table align="center">
+  <tr>
+    <td>
+      <img style="border-radius:14px; margin:10px; box-shadow: 0 3px 8px rgba(0,0,0,0.15);" src="https://github-readme-streak-stats.herokuapp.com/?user=somaye56&border_radius=15" alt="streak" />
+    </td>
+    <td>
+      <img style="border-radius:14px; margin:10px; box-shadow: 0 3px 8px rgba(0,0,0,0.15);" src="https://github-readme-stats.vercel.app/api?username=somaye56&show_icons=true&count_private=true&include_all_commits=true&title_color=FFD600&text_color=333333&bg_color=ffffff&icon_color=FFD600&border_radius=15" alt="stats"/>
+    </td>
+  </tr>
+</table>
 
 <h2 align="center" style="color:#444;">📫 Contact Me</h2>
 <p align="center">
